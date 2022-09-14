@@ -7,10 +7,13 @@ body {
 * {
 	box-sizing: border-box;
 }
+body {
+	font-size: 14px;
+}
 .container {
 	display: grid;
 	width: 90%;
-	min-height: 95vh;
+	min-height: 100vh;
 	margin: 0 auto;
 	grid-template-columns: repeat(4, 1fr);
 	grid-template-areas:
